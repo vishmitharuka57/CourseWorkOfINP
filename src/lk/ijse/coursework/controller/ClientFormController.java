@@ -32,7 +32,7 @@ public class ClientFormController extends Thread{
     BufferedReader bufferedReader;
     PrintWriter printWriter;
 
-    public void initializer(){
+    public void initialize(){
         emojiPane.setVisible(false);
         String userName = LoginFormController.userName;
         lblName.setText(userName);
